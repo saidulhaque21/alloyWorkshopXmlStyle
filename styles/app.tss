@@ -1,0 +1,61 @@
+".mainContainer": {
+	"backgroundColor": "#ff8000", 
+	"width": Ti.UI.FILL,
+	"height": Ti.UI.FILL,
+},
+"Label": {
+	"width": Ti.UI.SIZE,
+	"height":Ti.UI.SIZE,
+	 color: '#ddd',
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER ,
+    backgroundColor: 'transparent',
+    font: {
+        fontFamily:'Helvetica',
+        fontSize: '14dp',
+        fontStyle: 'normal',
+        fontWeight: 'normal'
+    } 
+},
+"#header": {
+	top: 0,
+	height: "50dp",
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#a00", offset: 0.0 },
+			{ color: "#800", offset: 1.0 }
+		]
+	}
+},
+
+
+"#middle": {
+	top: "50dp",
+	height:Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	 backgroundColor: '#ccc'
+},
+
+ 
+"#footer": {
+	bottom: 0,
+	height: "50dp",
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#408080", offset: 0.0 },
+			{ color: "#408080", offset: 1.0 }
+		]
+	}
+},
+".dynamic1" : {
+    color: 'red', 
+    font: {fontSize: '24dp'}
+} 
+ 

@@ -1,0 +1,30 @@
+<Alloy>
+	<Window>
+		<View class="mainContainer"  >
+			<View id="header">
+				<Require src="header" />
+			</View>
+			<View id="middle">
+				<View id="verticalView" >
+					 
+					<Label left="20" top="5"     text="Vertical View "  />
+					<Label left="20" top="5"     text="Vertical View " />
+					<Label left="20" top="5"     text="Vertical View " />
+					
+					<Label left="20"  top="5"  text="Vertical View " id="dynamic1"  />
+					<Label left="20"  top="5"    text="Vertical View " id="dynamic2"  />
+				</View>
+				<View id="horizontalView"  >
+					<Label left="5"    top="10" text="H View" />
+					<Label left="5"    top="10" text="H View " />
+					<Label left="5"    top="10" text="H View " />
+					<Label left="5"    top="10" text="H View " />
+					<Label left="5"    top="10" text="H View " />
+				</View>
+			</View>
+			<View id="footer">
+				<Require src="footer" />
+			</View>
+		</View>
+	</Window>
+</Alloy>
